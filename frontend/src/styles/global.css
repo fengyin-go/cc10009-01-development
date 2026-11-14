@@ -35,3 +35,17 @@ body { margin: 0; background: #f6f8fb; color: #1f2937; }
 .error-text { color: #b42318; }
 .status-legend { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 10px; font-size: 12px; color: var(--muted); }
 .legend-item { background: #eef2f7; border-radius: 999px; padding: 2px 10px; }
+.panel { background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; margin-bottom: 14px; }
+.panel h3 { margin: 0 0 10px; font-size: 14px; }
+.group-row td { background: #eef2f7; font-weight: 600; }
+.subgroup-row td { background: #f8fafc; color: var(--muted); font-size: 12px; }
+.badge { display: inline-block; border-radius: 999px; padding: 1px 8px; font-size: 12px; }
+.badge.ok { background: #e7f6ec; color: #157347; }
+.badge.info { background: #e8f0fe; color: #1f6feb; }
+.badge.muted { background: #eef2f7; color: #64748b; }
+.badge.warn { background: #fde8e8; color: #b42318; }
+.warn-text { color: #b42318; }
+.warn-chip { background: #fde8e8; color: #b42318; }
+.hint-text { color: var(--muted); font-size: 12px; }
+.flag-line { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 10px 0 0; font-size: 12px; }
+.flag-label { color: var(--muted); }
